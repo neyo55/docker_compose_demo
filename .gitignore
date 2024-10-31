@@ -1,0 +1,30 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Ignore Docker-specific files (optional if not required in repo)
+.dockerignore
+
+# Ignore environment files (for sensitive information)
+.env
+.env.*
+
+# Ignore credentials, SSH keys, and other secrets
+*.pem
+*.key
+*.crt
+
+# Ignore logs and temporary files
+logs/
+*.log
+tmp/
+*.swp
+
+# IDE/editor settings
+.vscode/
+.idea/
+*.DS_Store  # macOS specific
+
+# If using a virtual environment in app, ignore it
+venv/
