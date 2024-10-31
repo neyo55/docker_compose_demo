@@ -28,7 +28,7 @@ jobs:
           context: .
           file: ./app/Dockerfile
           push: true
-          tags: ${{ secrets.DOCKER_USERNAME }}/docker_compose_demo:latest
+          tags: neyo55/docker_compose_demo:latest
 
   deploy:
     runs-on: ubuntu-latest
